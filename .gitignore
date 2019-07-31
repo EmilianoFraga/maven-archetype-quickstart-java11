@@ -1,0 +1,19 @@
+# ide
+.settings
+.project
+.classpath
+.idea
+*.iml
+*.code-workspace
+.vscode
+
+# debug / testing
+.attach_pid*
+
+# generated directories
+target/
+
+# temporary files
+*.bak
+*.swp
+*~
