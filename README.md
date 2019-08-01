@@ -46,7 +46,7 @@ Anyway, having the archetype installed (see above), one level above the root for
  
  ```
  cd ~/projects
- mvn archetype:generate -DarchetypeGroupId=org.cornputer -DarchetypeArtifactId=quickstart-java11 -DarchetypeVersion=1.1 -DgroupId=yourgroup -DartifactId=my-project-Dversion=1.0-SNAPSHOT
+ mvn archetype:generate -DarchetypeGroupId=org.cornputer -DarchetypeArtifactId=quickstart-java11 -DarchetypeVersion=1.1 -DgroupId=yourgroup -DartifactId=my-project -Dversion=1.0-SNAPSHOT
  ```
 
 _After that, the "My Project" project structure will be created in the `~/projects/my-project` directory_  
