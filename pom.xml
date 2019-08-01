@@ -43,6 +43,6 @@
     </build>
 
     <!-- Command line usage
-mvn archetype:generate -DarchetypeGroupId=org.cornputer -DarchetypeArtifactId=quickstart-java11 -DarchetypeVersion=1.0 -DgroupId=YOUR_PROJECT_GROUP_ID -DartifactId=YOUR_ARTIFACT_ID -Dversion=YOUR_ARTIFACT_VERSION
+mvn archetype:generate -DarchetypeGroupId=org.cornputer -DarchetypeArtifactId=quickstart-java11 -DarchetypeVersion=1.1 -DgroupId=YOUR_PROJECT_GROUP_ID -DartifactId=YOUR_ARTIFACT_ID -Dversion=YOUR_ARTIFACT_VERSION
     -->
 </project>
