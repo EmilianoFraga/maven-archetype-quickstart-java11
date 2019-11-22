@@ -32,8 +32,6 @@ After clonning or extracting this project contents, at the project root:
 
 The latest archetype version shall be installed into your maven repository.
 
-_For example, let us say the the installed version is 1.1_
-
 ## Usage - Creating a new Java 11 project using this archetype
 
 This guide follows the standard Maven documented instructions already available at [Maven Creating Archetype Guide](https://maven.apache.org/guides/mini/guide-creating-archetypes.html#a4._Install_the_archetype_and_run_the_archetype_plugin).
