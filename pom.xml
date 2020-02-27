@@ -1,48 +1,52 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.cornputer</groupId>
-    <artifactId>quickstart-java11</artifactId>
-    <version>1.1</version>
-    <packaging>maven-archetype</packaging>
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.archetype.version>3.1.1</maven.archetype.version>
-    </properties>
+	<groupId>org.cornputer</groupId>
+	<artifactId>quickstart-java11</artifactId>
+	<version>1.2</version>
+	<packaging>maven-archetype</packaging>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.archetype.version>3.1.1</maven.archetype.version>
+	</properties>
 
-    <build>
-        <extensions>
-            <extension>
-                <groupId>org.apache.maven.archetype</groupId>
-                <artifactId>archetype-packaging</artifactId>
-                <version>${maven.archetype.version}</version>
-            </extension>
-        </extensions>
+	<build>
+		<extensions>
+			<extension>
+				<groupId>org.apache.maven.archetype</groupId>
+				<artifactId>archetype-packaging</artifactId>
+				<version>${maven.archetype.version}</version>
+			</extension>
+		</extensions>
 
-        <pluginManagement>
-            <plugins>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-archetype-plugin</artifactId>
-                    <version>${maven.archetype.version}</version>
-                </plugin>
-            </plugins>
-        </pluginManagement>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-archetype-plugin</artifactId>
+					<version>${maven.archetype.version}</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
 
-        <resources>
-            <resource>
-                <directory>src/main/resources</directory>
-                <excludes>
-                    <exclude>**/*~</exclude>
-                    <exclude>**/*.bak</exclude>
-                    <exclude>**/*.swp</exclude>
-                </excludes>
-            </resource>
-        </resources>
-    </build>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<excludes>
+					<exclude>**/*~</exclude>
+					<exclude>**/*.bak</exclude>
+					<exclude>**/*.swp</exclude>
+				</excludes>
+			</resource>
+		</resources>
+	</build>
 
-    <!-- Command line usage
-mvn archetype:generate -DarchetypeGroupId=org.cornputer -DarchetypeArtifactId=quickstart-java11 -DarchetypeVersion=1.1 -DgroupId=YOUR_PROJECT_GROUP_ID -DartifactId=YOUR_ARTIFACT_ID -Dversion=YOUR_ARTIFACT_VERSION
-    -->
+	<!-- Command line usage
+mvn archetype:generate -DarchetypeGroupId=org.cornputer -DarchetypeArtifactId=quickstart-java11 -DarchetypeVersion=1.2
+
+or
+
+mvn archetype:generate -DarchetypeGroupId=org.cornputer -DarchetypeArtifactId=quickstart-java11 -DarchetypeVersion=1.2 -DgroupId=YOUR_PROJECT_GROUP_ID -DartifactId=YOUR_ARTIFACT_ID -Dversion=YOUR_ARTIFACT_VERSION
+	-->
 </project>
