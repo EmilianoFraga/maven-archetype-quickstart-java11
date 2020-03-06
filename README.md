@@ -38,16 +38,16 @@ This guide follows the standard Maven documented instructions already available 
 
 Anyway, having the archetype installed (see above), one level above the root for your new project, you can type in the command line:
 
-`mvn archetype:generate -DarchetypeGroupId=org.cornputer -DarchetypeArtifactId=quickstart-java11 -DarchetypeVersion=1.2`
+`mvn archetype:generate -DarchetypeGroupId=org.cornputer -DarchetypeArtifactId=quickstart-java11 -DarchetypeVersion=1.2.1`
 
 Or a longer version, providing your project properties from command line:
-`mvn archetype:generate -DarchetypeGroupId=org.cornputer -DarchetypeArtifactId=quickstart-java11 -DarchetypeVersion=1.2 -DgroupId=YOUR_PROJECT_GROUP_ID -DartifactId=YOUR_ARTIFACT_ID -Dversion=YOUR_ARTIFACT_VERSION`
+`mvn archetype:generate -DarchetypeGroupId=org.cornputer -DarchetypeArtifactId=quickstart-java11 -DarchetypeVersion=1.2.1 -DgroupId=YOUR_PROJECT_GROUP_ID -DartifactId=YOUR_ARTIFACT_ID -Dversion=YOUR_ARTIFACT_VERSION`
 
  _For example, let us say that you are creating a new Java 11 project named "MyProject", starting at 1.0-SNAPSHOT version, under your "projects" directory:_
  
  ```
  cd ~/projects
- mvn archetype:generate -DarchetypeGroupId=org.cornputer -DarchetypeArtifactId=quickstart-java11 -DarchetypeVersion=1.2 -DgroupId=yourgroup -DartifactId=my-project -Dversion=1.0-SNAPSHOT
+ mvn archetype:generate -DarchetypeGroupId=org.cornputer -DarchetypeArtifactId=quickstart-java11 -DarchetypeVersion=1.2.1 -DgroupId=yourgroup -DartifactId=my-project -Dversion=1.0-SNAPSHOT
  ```
 
 _After that, the "My Project" project structure will be created in the `~/projects/my-project` directory_  

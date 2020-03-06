@@ -2,16 +2,24 @@ package ${groupId};
 
 import org.junit.jupiter.api.*;
 
-public class AppTest {
+class AppTest {
 	@BeforeEach
-	public void setup() {
-		// before each test method
+	void setup() {
+		// This is an empty, placeholder method
 	}
 
 	@Test
-	public void testApp() {
-		// this is an empty test
-		Assertions.assertTrue(1 == 1, "Expected value should be true");
+	void testApp() {
+		// This is a placeholder
+
+		// GIVEN
+
+		// WHEN
+		int expected = 1;
+		int actual = 1;
+
+		// THEN
+		Assertions.assertEquals(expected, actual, "Expected value should be true");
 	}
 }
 
