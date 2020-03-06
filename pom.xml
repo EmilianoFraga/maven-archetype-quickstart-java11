@@ -4,7 +4,7 @@
 
 	<groupId>org.cornputer</groupId>
 	<artifactId>quickstart-java11-junit4</artifactId>
-	<version>1.2</version>
+	<version>1.2.1</version>
 	<packaging>maven-archetype</packaging>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -43,6 +43,10 @@
 	</build>
 
 	<!-- Command line usage
-mvn archetype:generate -DarchetypeGroupId=org.cornputer -DarchetypeArtifactId=quickstart-java11-junit4 -DarchetypeVersion=1.2 -DgroupId=YOUR_PROJECT_GROUP_ID -DartifactId=YOUR_ARTIFACT_ID -Dversion=YOUR_ARTIFACT_VERSION
+mvn archetype:generate -DarchetypeGroupId=org.cornputer -DarchetypeArtifactId=quickstart-java11-junit4 -DarchetypeVersion=1.2.1
+
+or
+
+mvn archetype:generate -DarchetypeGroupId=org.cornputer -DarchetypeArtifactId=quickstart-java11-junit4 -DarchetypeVersion=1.2.1 -DgroupId=YOUR_PROJECT_GROUP_ID -DartifactId=YOUR_ARTIFACT_ID -Dversion=YOUR_ARTIFACT_VERSION
 	-->
 </project>
